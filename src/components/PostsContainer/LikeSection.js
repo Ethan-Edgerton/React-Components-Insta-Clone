@@ -4,7 +4,6 @@
 import React from "react";
 import dummyData from "../../dummy-data";
 
-
 const props = dummyData;
 
 const LikeSection = props => {
@@ -28,6 +27,6 @@ const LikeSection = props => {
   )
 };
 
-console.log(props);
+console.log(`test`, testProps);
 
 export default LikeSection;
